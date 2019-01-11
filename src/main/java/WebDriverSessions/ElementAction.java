@@ -4,12 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class ElementAction {
 
 	public static WebDriver driver;
 	/*
-	 * This method is uded to launch the url.If url is blank
+	 * This method is used to launch the url.If url is blank
 	 * or null,it will throw exception
 	 * If url is valid it will launch the url
 	 */
@@ -116,8 +117,12 @@ public class ElementAction {
 		
 		By un=By.name("username");
 		By pwd=By.name("password");
+		By login=By.xpath("//input[@type='submit']");
 		getElement(un).sendKeys("jimmy4u");
 		getElement(pwd).sendKeys("windowvista");
+		
+		Actions action=new Actions(driver);
+		action.click(getElement(login));
 	}
 	
 	
