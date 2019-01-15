@@ -1,6 +1,5 @@
 package TestNGSessions;
 
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -34,7 +33,7 @@ public class TestNGAnnotations {
 		System.out.println("login to app");
 	}
 	//5
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)//skip the test case use enable=false
 	public void homePageHeaderTest()
 	{
 		System.out.println("home page header test");
