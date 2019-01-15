@@ -2,68 +2,68 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2019-01-15T03:08:52Z" finished-at="2019-01-15T03:08:52Z">
+  <suite name="Default suite" duration-ms="33" started-at="2019-01-15T03:24:22Z" finished-at="2019-01-15T03:24:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2019-01-15T03:08:52Z" finished-at="2019-01-15T03:08:52Z">
+    <test name="Default test" duration-ms="33" started-at="2019-01-15T03:24:22Z" finished-at="2019-01-15T03:24:22Z">
       <class name="TestNGSessions.TestNGAnnotations">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="login" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAllCookies -->
-        <test-method status="PASS" signature="homePageHeaderTest()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="homePageHeaderTest" duration-ms="16" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageHeaderTest -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="enterURL" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="login()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="login" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="logout" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="login" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="homePageTittleTest()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="homePageTittleTest" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="homePageHeaderTest()[pri:1, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="homePageHeaderTest" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageTittleTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="logout" is-config="true" duration-ms="15" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="logout" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="homePageUserInfoTest()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="homePageUserInfoTest" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        </test-method> <!-- homePageHeaderTest -->
+        <test-method status="PASS" signature="homePageUserInfoTest()[pri:2, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="homePageUserInfoTest" duration-ms="16" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageUserInfoTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="logout" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="login" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="login" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="closeDBConnection()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="closeDBConnection" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="logout" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeDBConnection()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="closeDBConnection" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBConnection -->
-        <test-method status="PASS" signature="deleteUser()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="deleteUser" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="logout" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="login" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="homePageTittleTest()[pri:3, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="homePageTittleTest" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTittleTest -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="deleteUser" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-01-15T08:38:52Z" finished-at="2019-01-15T08:38:52Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGSessions.TestNGAnnotations@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-01-15T08:54:22Z" finished-at="2019-01-15T08:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -33,18 +33,20 @@ public class TestNGAnnotations {
 	{
 		System.out.println("login to app");
 	}
-	
-	@Test//5
+	//5
+	@Test(priority=1)
 	public void homePageHeaderTest()
 	{
 		System.out.println("home page header test");
 	}
-	@Test//6
+	//6
+	@Test(priority=2)
 	public void homePageUserInfoTest()
 	{
 		System.out.println("homePageUserInfoTest");
 	}
-	@Test//7
+	//7
+	@Test(priority=3)
 	public void homePageTittleTest()
 	{
 		System.out.println("homePageTittleTest");
